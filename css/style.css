@@ -108,6 +108,7 @@ header {
 .nav-bar a:hover {
   color: var(--second-color);
 }
+
 /*=======Home section=======*/
 .home {
   position: relative;
