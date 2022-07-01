@@ -512,6 +512,57 @@ header.sticky .nav-bar {
 }
 
 /*=======Services section=======*/
+.services .container .content {
+  width: 100%;
+}
+
+.services-description h3 {
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  gap: 20px;
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+.service-card {
+  background: var(--card-bg-color);
+  border-bottom: 3px solid var(--second-color);
+  border-radius: 6px;
+  box-shadow: var(--box-shadow);
+  padding: 50px;
+}
+
+.service-card > i {
+  color: var(--second-color);
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.service-card h3 {
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.service-card .learn-more-btn {
+  color: var(--third-color);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.service-card .learn-more-btn i {
+  transition: 0.3s ease;
+}
+
+.service-card:hover .learn-more-btn i {
+  transform: translateX(10px);
+}
 
 /*=======Portfolio section=======*/
 
