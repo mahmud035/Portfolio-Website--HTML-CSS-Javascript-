@@ -578,6 +578,11 @@ header.sticky .nav-bar {
   transition: 0.3s ease;
 }
 
+.service-modal.active {
+  visibility: visible;
+  opacity: 1;
+}
+
 .service-modal-body {
   position: relative;
   background: var(--modal-bg-color);
@@ -586,6 +591,12 @@ header.sticky .nav-bar {
   padding: 40px;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
+  transform: translateY(-50px);
+  transition: 0.5s ease;
+}
+
+.service-modal.active .service-modal-body {
+  transform: translateY(0);
 }
 
 .service-modal-body .modal-close-btn {
